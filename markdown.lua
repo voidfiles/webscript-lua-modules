@@ -119,7 +119,7 @@ THE SOFTWARE.
 local M = {}
 local MT = {__index = _G}
 setmetatable(M, MT)
-setfenv(1, M)
+-- setfenv(1, M)
 
 ----------------------------------------------------------------------
 -- Utility functions
