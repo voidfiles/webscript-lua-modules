@@ -1126,7 +1126,7 @@ end
 -- End of module
 ----------------------------------------------------------------------
 
-setfenv(1, _G)
+-- setfenv(1, _G)
 M.lock(M)
 
 -- Expose markdown function to the world
