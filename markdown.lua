@@ -121,6 +121,13 @@ local MT = {__index = _G}
 setmetatable(M, MT)
 -- setfenv(1, M)
 
+
+function unpack (t, i)
+    i = i or 1
+    if t[i] ~= nil then
+        return t[i], unpack(t, i + 1)
+    end
+end
 ----------------------------------------------------------------------
 -- Utility functions
 ----------------------------------------------------------------------
