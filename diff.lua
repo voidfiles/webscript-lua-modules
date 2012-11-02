@@ -211,4 +211,4 @@ function diff(old, new, separator)
 end
 
 
-
+return diff
