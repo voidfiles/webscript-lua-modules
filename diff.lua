@@ -7,7 +7,7 @@
 -- License: MIT/X, see http://sputnik.freewisdom.org/en/License
 -----------------------------------------------------------------------------
 
-module(..., package.seeall)
+-- module(..., package.seeall)
 
 SKIP_SEPARATOR = true  -- a constant
 
